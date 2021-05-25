@@ -5,9 +5,84 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+#root{
+  display: flex;
+    justify-content: center;
+    margin: 25vh 0;
+    height: 100%;
+   
+}
+.main_container{
+  width: max-content;
+    height: max-content;
+    border: 1px solid;
+    text-align: center;
+    padding: 20px;
+    background-color: #20201f;
+    color: white;
+}
+input{
+  width: 80%;
+    height: 80%;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 20px;
+}
+.input_field{
+  height: 40px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+.data_container{
+    margin: 20px;
+    font-size: 15px;
+}
+.Row-1{
+  display: flex;
+  padding: 15px;
+  margin: 10px;
+}
+.coordinate{
+  margin-top: 35px;
+  margin-left: 15px;
+  font-size: 20px;
+}
+.Row-2{
+  padding: 15px;
+  display: flex;
+    justify-content: space-between;
+ 
+}
+.fas{
+  font-size: 50px;
+  margin: 20px;
+}
+.fa-circle{
+  color: yellow;
+  margin: 0;
+}
+.fas-thunderstorm{
+  color: rgb(44, 42, 42);
+}
+.fa-cloud-showers-heavy{
+  color: rgb(31, 29, 29);
+}
+.fa-clouds-sun,.fa-sun-cloud{
+  color: rgb(65, 62, 62);
+}
+h2,h3,h4,p{
+margin: 5px;
+}
+strong{
+  font-size: 30px;
+  color: rgb(242, 245, 240);
+  text-transform: capitalize;
 }
